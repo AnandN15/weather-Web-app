@@ -1,8 +1,8 @@
-# 🌦️ Weather Web App
+# Weather Web App
 
-## 🚀 Features
+Features
 - Search weather by city
 - Shows temperature, humidity, wind
-- 🌧️ Smart suggestion (umbrella alert)
-- 🌙 Dark/light mode
+- Smart suggestion (umbrella alert)
+- Dark/light mode
 
