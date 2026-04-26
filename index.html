@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Modern Weather App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="card">
+
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <button id="locationBtn">📡</button>
+        <button id="toggleMode">🌙</button>
+    </div>
+
+    <!-- Search -->
+    <div class="search">
+        <input type="text" placeholder="Enter city name">
+        <button id="searchBtn">🔍</button>
+    </div>
+
+    <!-- Favorites -->
+    <ul id="favList"></ul>
+
+    <!-- Error -->
+    <div class="error">Invalid city name</div>
+
+    <!-- Weather -->
+    <div class="weather">
+
+        <div class="weather-emoji">☀️</div>
+
+        <h1 class="temp"></h1>
+        <h2 class="city"></h2>
+
+        <p id="suggestion" class="suggestion"></p>
+
+        <div class="sun-times">
+            <p class="sunrise"></p>
+            <p class="sunset"></p>
+        </div>
+
+        <!-- DETAILS -->
+        <div class="details">
+
+            <div class="col">
+                <span class="icon">💧</span>
+                <div>
+                    <p class="humidity"></p>
+                    <p>Humidity</p>
+                </div>
+            </div>
+
+            <div class="col">
+                <span class="icon">🌬️</span>
+                <div>
+                    <p class="wind"></p>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+
+        </div>
+
+        <button class="fav-btn">⭐ Add to Favorites</button>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
